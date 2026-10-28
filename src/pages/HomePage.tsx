@@ -101,7 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({
   return (
     <div className="w-full overflow-hidden bg-[#FAFAF8]">
       {/* 1. UNIQUE HERO SECTION with Staggered Multi-Column Mosaic Animation */}
-      <section className="relative min-h-[90vh] lg:min-h-[92vh] flex items-center pt-24 sm:pt-28 lg:pt-32 pb-16 lg:pb-24 border-b border-[#121212]/10 overflow-hidden bg-gradient-to-b from-[#FAFAF8] via-[#F6F6F2] to-[#F1F1EB]">
+      <section className="relative min-h-[90vh] lg:min-h-[92vh] flex items-center pt-24 sm:pt-28 lg:pt-10 pb-16 lg:pb-24 border-b border-[#121212]/10 overflow-hidden bg-gradient-to-b from-[#FAFAF8] via-[#F6F6F2] to-[#F1F1EB]">
         {/* Subtle grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#12121206_1px,transparent_1px),linear-gradient(to_bottom,#12121206_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] pointer-events-none" />
 
