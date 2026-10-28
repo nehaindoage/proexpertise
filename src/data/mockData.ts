@@ -2,15 +2,37 @@ import { ServiceItem, ProjectCaseStudy, TeamMember, ClientTestimonial } from '..
 
 export const LOGO_URL = 'https://res.cloudinary.com/dx6zonqrt/image/upload/v1792059805/proexpertise_xw49qk.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_cinematic_production_1793168502619.jpg';
-export const CAR_REEL_IMAGE = '/src/assets/images/cinematography_reel_commercial_1793168503039.jpg';
-export const FASHION_IMAGE = '/src/assets/images/photography_editorial_fashion_1793168503450.jpg';
-export const STUDIO_IMAGE = '/src/assets/images/studio_kangra_himalayas_1793168504876.jpg';
-export const BRAND_IMAGE = '/src/assets/images/brand_design_packaging_1793168503098.jpg';
-export const NIGHT_RAIN_IMAGE = '/src/assets/images/gallery_cinematography_night_rain_1793172906422.jpg';
-export const RESORT_IMAGE = '/src/assets/images/gallery_resort_himalayas_1793172906948.jpg';
-export const PERFUME_IMAGE = '/src/assets/images/gallery_product_perfume_1793172907818.jpg';
-export const WEAVER_PORTRAIT_IMAGE = '/src/assets/images/gallery_documentary_portrait_1793172907726.jpg';
+
+import HERO_IMAGE_FILE from '../assets/images/hero_cinematic_production_1793168502619.jpg';
+import CAR_REEL_IMAGE_FILE from '../assets/images/cinematography_reel_commercial_1793168503039.jpg';
+import FASHION_IMAGE_FILE from '../assets/images/photography_editorial_fashion_1793168503450.jpg';
+import STUDIO_IMAGE_FILE from '../assets/images/studio_kangra_himalayas_1793168504876.jpg';
+import BRAND_IMAGE_FILE from '../assets/images/brand_design_packaging_1793168503098.jpg';
+import NIGHT_RAIN_IMAGE_FILE from '../assets/images/gallery_cinematography_night_rain_1793172906422.jpg';
+import RESORT_IMAGE_FILE from '../assets/images/gallery_resort_himalayas_1793172906948.jpg';
+import PERFUME_IMAGE_FILE from '../assets/images/gallery_product_perfume_1793172907818.jpg';
+import WEAVER_PORTRAIT_IMAGE_FILE from '../assets/images/gallery_documentary_portrait_1793172907726.jpg';
+
+export const HERO_IMAGE = HERO_IMAGE_FILE;
+export const CAR_REEL_IMAGE = CAR_REEL_IMAGE_FILE;
+export const FASHION_IMAGE = FASHION_IMAGE_FILE;
+export const STUDIO_IMAGE = STUDIO_IMAGE_FILE;
+export const BRAND_IMAGE = BRAND_IMAGE_FILE;
+export const NIGHT_RAIN_IMAGE = NIGHT_RAIN_IMAGE_FILE;
+export const RESORT_IMAGE = RESORT_IMAGE_FILE;
+export const PERFUME_IMAGE = PERFUME_IMAGE_FILE;
+export const WEAVER_PORTRAIT_IMAGE = WEAVER_PORTRAIT_IMAGE_FILE;
+
+
+// export const HERO_IMAGE = '/src/assets/images/hero_cinematic_production_1793168502619.jpg';
+// export const CAR_REEL_IMAGE = '/src/assets/images/cinematography_reel_commercial_1793168503039.jpg';
+// export const FASHION_IMAGE = '/src/assets/images/photography_editorial_fashion_1793168503450.jpg';
+// export const STUDIO_IMAGE = '/src/assets/images/studio_kangra_himalayas_1793168504876.jpg';
+// export const BRAND_IMAGE = '/src/assets/images/brand_design_packaging_1793168503098.jpg';
+// export const NIGHT_RAIN_IMAGE = '/src/assets/images/gallery_cinematography_night_rain_1793172906422.jpg';
+// export const RESORT_IMAGE = '/src/assets/images/gallery_resort_himalayas_1793172906948.jpg';
+// export const PERFUME_IMAGE = '/src/assets/images/gallery_product_perfume_1793172907818.jpg';
+// export const WEAVER_PORTRAIT_IMAGE = '/src/assets/images/gallery_documentary_portrait_1793172907726.jpg';
 
 export const SERVICES_DATA: ServiceItem[] = [
   {
